@@ -13,8 +13,7 @@ export default defineConfig(({ mode }) => {
       // --- 빌드 설정 추가 시작 ---
       base: './', // 상대 경로로 빌드하여 파일 경로 에러 방지
       build: {
-        sourcemap: false, // eval을 사용할 수 있는 소스맵 비활성화
-        minify: 'terser', // 더 깨끗한 코드 압축 (선택 사항)
+        sourcemap: false, // eval을 사용할 수 있는 소스맵 비활성화        
       },
       // --- 빌드 설정 추가 끝 ---
       define: {
